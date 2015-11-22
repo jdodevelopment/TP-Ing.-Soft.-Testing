@@ -157,7 +157,7 @@ public class TarjetaTest {
 
 	@Test
 	public void testViajesRealizados() {
-		boolean dos_viajes = tarjeta_con_dos_viajes.getViajes().size() == 4;
+		boolean dos_viajes = tarjeta_con_dos_viajes.getViajes().size() == 2;
 		assertTrue(dos_viajes);
 	}
 }
