@@ -21,7 +21,7 @@ public class Tarjeta {
 	public Viaje ultimoViaje(){
 		Viaje viaje = null;
 		if(!viajes.isEmpty()){
-			viaje = viajes.get(viajes.size());
+			viaje = viajes.get(viajes.size()-1);
 		}
 		return viaje;
 	}
